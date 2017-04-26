@@ -1,0 +1,33 @@
+﻿@font-face {
+  font-family: 'iconfont';  /* project id 275921 */
+  src: url('http://at.alicdn.com/t/font_zh2oqe5b99ysyvi.eot');
+  src: url('http://at.alicdn.com/t/font_zh2oqe5b99ysyvi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_zh2oqe5b99ysyvi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_zh2oqe5b99ysyvi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_zh2oqe5b99ysyvi.svg#iconfont') format('svg');
+}
+i { font-family:iconfont; font-style:normal }
+.my-table { line-height:1.5; margin-bottom:50px }
+.my-table ul { list-style:none; padding:0; margin:0 }
+.my-table .row { margin:0; padding-top:10px; padding-bottom:10px }
+.my-table div.title.row { font-weight:bold; line-height:1.5 }
+.my-table.striped > ul > li:nth-of-type(2n+1) { background-color:#f9f9f9 }
+.my-table.click > ul > li   { cursor:pointer }
+.my-table.striped > ul > li.success, .my-table > ul > li.success { background-color:#dff0d8 }
+.my-table.striped > ul > li.info, .my-table > ul > li.info    { background-color:#d9edf7 }
+.my-table.striped > ul > li.warning, .my-table > ul > li.warning { background-color:#fcf8e3 }
+.my-table.striped > ul > li.danger, .my-table > ul > li.danger  { background-color:#f2dede }
+.my-table div.title.row { border-bottom:1px solid #ddd }
+.my-table > ul > li { border-top:1px solid #ddd }
+.my-table > ul > li > div{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap }
+.my-table .empty { display:none; line-height:3; text-align:center }
+
+h1 { letter-spacing:.3em }
+.system-state { background-color:#505050; background-image:url(../Images/bg.png); background-size:cover; background-position:center; background-attachment:fixed; padding:50px 0 }
+.system-state h1 { color:#fff; text-align:center; line-height:20px; font-size:24px }
+.system-state h3 { color:rgb(35, 157, 96); }
+.system-state .value { margin:40px 0 20px; color:#10ade4; font-size:48px }
+.system-state .unit { color:#10ade4 }
+.system-state .col-sm-3 { transition:background-color .7s; cursor:default; }
+.system-state .col-sm-3:hover { background-color:rgba(0,0,0,.7);  }
+.system-state .cell-bordered-right { border-right-color:#555 }

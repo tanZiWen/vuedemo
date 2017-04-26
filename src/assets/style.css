@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.el-input {
+  width: 600px;
+}
+.el-row {
+  text-align: center;
+}
+.cell-bordered-right {
+  border-right-color: #555;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
